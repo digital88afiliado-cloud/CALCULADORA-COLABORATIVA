@@ -8,8 +8,10 @@ def multiplicacao(a, b):
 # TODO: Pessoa 4 deve implementar esta função
 pass
 def divisao(a, b):
-# TODO: Pessoa 5 deve implementar esta função
-pass
+# TODO: Pessoa 5 deve implementar esta função   
+if b == 0:
+    return "Erro: divisão por zero não é permitida."
+    return a / b
 # -- Fim da área de implementação das funções --
 # Menu principal da calculadora (Responsabilidade do Líder)
 def main():

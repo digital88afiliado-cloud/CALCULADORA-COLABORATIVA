@@ -1,5 +1,7 @@
+# Funções que serão implementadas pela equipe
 def soma(a, b):
 # TODO: Pessoa 2 deve implementar esta função
+    return a + b    
 pass
 def subtracao(a, b):
 # TODO: Pessoa 3 deve implementar esta função
@@ -8,10 +10,10 @@ def multiplicacao(a, b):
 # TODO: Pessoa 4 deve implementar esta função
 pass
 def divisao(a, b):
-# TODO: Pessoa 5 deve implementar esta função   
-if b == 0:
+# TODO: Pessoa 5 deve implementar esta função
+  if b == 0:
     return "Erro: divisão por zero não é permitida."
-    return a / b
+  return a / b
 # -- Fim da área de implementação das funções --
 # Menu principal da calculadora (Responsabilidade do Líder)
 def main():
@@ -49,4 +51,4 @@ elif escolha == '4':
 resultado = divisao(num1, num2)
 print(f"O resultado de {num1} / {num2} é: {resultado}")
 # Executa o programa
-if __name__ == "__main_
+if __name_
